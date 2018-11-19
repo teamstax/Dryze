@@ -2334,8 +2334,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #396B31;
-  border-color: #396B31;
+  background-color: #BB342F;
+  border-color: #BB342F;
   width: 200px;
 }
 
@@ -4020,7 +4020,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #396B31;
+  color: #BB342F;
   font-size: 20px;
   font-weight: 600;
 }
@@ -4274,7 +4274,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: #396B31;
+  color: #BB342F;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
@@ -4282,7 +4282,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #396B31;
+  color: #122121;
   margin-top: 2%;
   letter-spacing: 1.2px;
   font-size: 18px;
@@ -4407,7 +4407,7 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 2rem;
 }
 
 .card-subtitle {

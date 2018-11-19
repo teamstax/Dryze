@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="desktop.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 920px)" href="desktop.css" />
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
 
 </head>
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Dryze</a>
+            <a class="navbar-brand" href="#" id="top">Dryze</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#intro">Intro <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#features">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
                 </li>
               </ul>
               <span class="navbar-text">
@@ -36,21 +42,21 @@
             </div>
           </nav>
     </div>
-    <div class="intro">
+    <div class="intro" id="intro">
             <img src="img/intro.jpg" width="400px" height="600px" alt="">
             <h3> Who are we?</h3>
-            <p>Dryze is Spiritual Agency which main goal is to Elevate people in a way they thought it was impossible. We offed you multiple things, from spirutual guidance to Motivational videos that will spark your imagination.</p>
+            <p><span class="logo">Dryze</span> is Spiritual Agency which main goal is to Elevate people in a way they thought it was impossible. We offed you multiple things, from spirutual guidance to Motivational videos that will spark your imagination.</p>
     </div>
-    <div class="features">
+    <div class="features" id="features">
             <h3>What's our <span>WHY?</span></h3>
-            <img src="img/gal_1.jpg" width="320px" height="320px" alt="">
+            <img src="img/gall_1.jpg" width="320px" height="320px" alt="">
             <!--<img class="chain" src="img/chains.png" width="100px" height="100px" alt="">-->
-            <img src="img/gal_2.jpg" width="320px" height="320px" alt="">
+            <img src="img/gall_2.jpg" width="320px" height="320px" alt="">
             <!--<img class="chain" src="img/chains.png" width="100px" height="100px" alt="">-->
-            <img src="img/gal_3.jpg" width="320px" height="320px" alt="">
+            <img src="img/gall_3.jpg" width="320px" height="320px" alt="">
             <p>Many of you are total strangers to this whole Topic. You have to understand that being able to change and elevate yourself even others is a huge bold move. Elevation is not always as easy as you may think, however, once you get into that mindset, nothing, literally nothing will stop you. Will is the strongest feeling we can taste, having that will to succeed, accomplish is the best possible thing you could want for yourselgf. <span>Money</span>, <span>Fame</span> can be bought and lost in a day, your <span>Mind</span> will laste for life.</p>
     </div>
-    <div class="pricing">
+    <div class="pricing" id="pricing">
         <h3 class="pricing_h3">Pricing</h3>
         <p class="pricing_p">We have cool stuff ready for you, below you can check our Pricing table, we got some special offers for you ;)</p>
         <div class="row">
@@ -86,5 +92,25 @@
                     </div>
             </div>
         </div>
+        <div class="container" id="testimonials">
+            <h3 class="heading_h3">Testimonials</h3>
+        </div>
+        <div class="testimonials">
+            <img src="img/tes_1.jpg" widt="300px" height="300px"  alt="">
+            <h3><span class="logo">Jonas</span> Sepfer</h3>
+            <p>This company brought me nothing but the best. I was going through a difficult period in my life, and using their tricks, as well human support, I've managed to overcome every damn problem in my life.</p>
+            <img src="img/tes_2.jpg" widt="300px" height="300px"  alt="">
+            <h3><span class="logo">Mary</span> Jones</h3>
+            <p>I'm literally speachless. What ever you though you may know about Self-Empowerment you're wrong. You gotta meet the team, you have to work on yourself, more you challenge yourself, more you'll achieve.</p>
+            <img src="img/tes_3.jpg" widt="300px" height="300px"  alt="">
+            <h3><span class="logo">July</span> Fox</h3>
+            <p>I feel I've been on a Life Support till now. I never knew I was missing so much from life, I've limited my self to certain things, certain circles, that was totally wrong! Nowadays, I'm open for every single thing.</p>
+        </div>
+        
+        <div class="anchor">
+            <a href="#top"><i class="fas fa-location-arrow fa-3x"></i></a>
+        </div>
+
+        <script src="script.js"></script>
 </body>
 </html>

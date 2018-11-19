@@ -2,10 +2,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     width: 100%;
     height: 100vh;
 }
+
+.logo {
+    color: #BB342F;
+    font-weight: 600;
+}
+
 .intro {
     position: relative;
     width: 100%;
@@ -16,7 +26,7 @@ body {
     position: absolute;
     top: 20%;
     left: 50%;
-    filter: hue-rotate(300deg);
+    /*filter: hue-rotate(300deg);*/
 
 }
 
@@ -59,7 +69,7 @@ body {
 }
 
 .features h3 > span {
-    color:  #396B31;
+    color:  #BB342F;
     font-weight: 600;
     border-radius: 3.5px;
     padding: 5px;
@@ -68,7 +78,7 @@ body {
 .features img {
     padding: 10px;
     margin-top: 2%;
-    filter: hue-rotate(100deg);
+    /*filter: hue-rotate(100deg);*/
     transition: 1s ease-in-out;
 }
 
@@ -152,7 +162,117 @@ body {
 }
 
 .pricing img {
-    filter: hue-rotate(160deg);
+    /*filter: hue-rotate(160deg);*/
     border-radius: 10px;
     box-shadow: 10px 10px 50px #121212;
+}
+
+.testimonials {
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    margin-bottom: 30%;
+}
+.testimonials img {
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px #396B31;
+}
+
+.testimonials img:nth-child(1) {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 1;
+}
+
+.testimonials img:nth-child(4) {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    z-index: 2;
+}
+
+.testimonials img:nth-child(7) {
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    z-index: 1;
+}
+
+
+.testimonials h3:nth-child(2) {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.testimonials p:nth-child(3) {
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    padding-right: 20%;
+}
+
+.testimonials h3:nth-child(5) {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.testimonials p:nth-child(6) {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding-right: 10%;
+}
+
+.testimonials h3:nth-child(8) {
+    position: absolute;
+    top: 110%;
+    left: 68%;
+}
+
+.testimonials p:nth-child(9) {
+    position: absolute;
+    top: 130%;
+    left: 68%;
+    padding-right: 2%;
+}
+
+.heading_h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 40px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.anchor {
+    position: relative;
+    width: 100%;
+    margin-top: -5%;
+}
+
+.fa-location-arrow {
+    position: absolute;
+    left: 47.5%;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #BB342F;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-left: 5.1px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    transform: rotate(-45deg);
+    transition: .5s ease-in-out;
+}
+
+.fa-location-arrow:hover {
+    color: rgba(0, 0, 0, 1);
 }
