@@ -21,6 +21,7 @@ body {
 }
 
 .intro h3 {
+    font-family: 'Sedgwick Ave', cursive;
     position: absolute;
     top: 40%;
     left: 35%;
@@ -46,26 +47,53 @@ body {
     height: 40vh;
     margin-top: 40%;
     text-align: center;
-    position: relative;
+    margin-bottom: 40%;
+    /*position: relative;*/
 }
 
 .features h3 {
+    font-family: 'Sedgwick Ave', cursive;
     font-size: 40px;
-    font-weight: 200;
+    font-weight: 600;
+    letter-spacing: 5.5px;
 }
 
 .features h3 > span {
-    background-color:  #396B31;
+    color:  #396B31;
+    font-weight: 600;
     border-radius: 3.5px;
     padding: 5px;
-    color: #fff;
 }
 
 .features img {
     padding: 10px;
     margin-top: 2%;
+    filter: hue-rotate(100deg);
+    transition: 1s ease-in-out;
 }
 
+.features img:nth-child(2) {
+    margin-top: 10%;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.features img:nth-child(3) {
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+
+.features img:nth-child(4) {
+    margin-top: 10%;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.features img:hover {
+    transform: scale(0.5);
+}
+/*
 .chain {
     position: absolute;
     top: 22%;
@@ -76,7 +104,55 @@ body {
 .chain:nth-last-child(2) {
     position: absolute;
     top: 22%;
-    left: 57.5%;
-    z-index: 1;
+    left: 75.5%;
+    z-index: 2;
+}
+*/
+.features p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 12%;
+    padding-right: 12%;
+    letter-spacing: 1.2px;
+    margin-top: 2%;
 }
 
+.features p > span {
+    color: #396B31;
+    font-weight: 600;
+}
+
+.services {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 30%;
+}
+
+.pricing_h3 {
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 1.5px; 
+}
+
+.pricing_p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pricing {
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.pricing img {
+    filter: hue-rotate(160deg);
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px #121212;
+}
