@@ -44,13 +44,15 @@ body {
 
 .intro p {
     position: absolute;
-    top: 350%;
+    top: 333.33%;
     left: 2%;
     font-size: 20px;
     font-weight: 200;
     color: #121212;
     letter-spacing: 1px;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
