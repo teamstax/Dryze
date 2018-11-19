@@ -20,12 +20,15 @@ body {
     position: relative;
     width: 100%;
     height: 30vh;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .intro img {
     width: 100%;
     position: absolute;
     top: 20%;
+    left: 0%;
     /*filter: hue-rotate(300deg);*/
 
 }
@@ -41,7 +44,8 @@ body {
 
 .intro p {
     position: absolute;
-    top: 500%;
+    top: 350%;
+    left: 2%;
     font-size: 20px;
     font-weight: 200;
     color: #121212;
@@ -53,9 +57,11 @@ body {
 .features {
     width: 100%;
     height: 50vh;
-    margin-top: 250%;
+    margin-top: 200%;
     text-align: center;
     margin-bottom: 120%;
+    padding-left: 10%;
+    padding-right: 10%;
     /*position: relative;*/
 }
 
@@ -185,14 +191,14 @@ body {
 
 .testimonials img:nth-child(4) {
     position: absolute;
-    top: 260%;
+    top: 190%;
     left: 20%;
     z-index: 1;
 }
 
 .testimonials img:nth-child(7) {
     position: absolute;
-    top: 500%;
+    top: 360%;
     left: 24.5%;
     z-index: 1;
 }
@@ -200,43 +206,50 @@ body {
 
 .testimonials h3:nth-child(2) {
     position: absolute;
-    top: 150%;
+    top: 115%;
     left: 30%;
     z-index: 2;
 }
 
 .testimonials p:nth-child(3) {
     position: absolute;
-    top: 170%;
+    top: 135%;
     left: 1%;
     font-size: 16px;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .testimonials h3:nth-child(5) {
     position: absolute;
-    top: 400%;
+    top: 300%;
     left: 35%;
 }
 
 .testimonials p:nth-child(6) {
     position: absolute;
-    top: 670%;
+    top: 320%;
     font-size: 16px;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .testimonials h3:nth-child(8) {
     position: absolute;
-    top: 640%;
+    top: 460%;
     left: 35%;
+    z-index: 2;
 }
 
 .testimonials p:nth-child(9) {
     position: absolute;
-    top: 430%;
+    top: 485%;
     left: 2%;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .heading_h3 {
@@ -251,7 +264,7 @@ body {
 .anchor {
     position: relative;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 
 .fa-location-arrow {
@@ -263,7 +276,7 @@ body {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 40px;
-    margin-top: 370%;
+    margin-top: 350%;
     margin-bottom: 5%;
     padding-top: 10px;
     padding-left: 5.1px;
